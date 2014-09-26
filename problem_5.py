@@ -8,7 +8,7 @@ hit = False
 test = 1
 while(hit == False):
 	test += 1
-	for i in range(1,21):
+	for i in range(1,11):
 		print("testing "+str(test)+" against "+str(i))
 		if test % i == 0:
 			hit = True
