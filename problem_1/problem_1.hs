@@ -1,2 +1,5 @@
-main :: IO ()
-problem_1  = sum [x | x <- [1..999], x `mod` 3 == 0 || x `mod` 5 == 0]
+-- module Main where
+
+-- main :: IO ()
+main = print $ sum [x | x <- [1..999], x `mod` 3 == 0 || x `mod` 5 == 0]
+
